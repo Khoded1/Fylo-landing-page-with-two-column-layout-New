@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+	font-family: 'Raleway', sans-serif;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+.nav_bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	padding-top: 2.5rem;
+}
+.nav_list_con {
+	display: flex;
+	gap: 1.5rem;
+}
+.nav_list,
+.nav_link {
+	text-decoration: none;
+	list-style: none;
+	color: #000;
+	font-weight: bold;
+}
+/* ******************************
+HERO SECTION 
+******************************* */
+.myHero {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
+.hero-title {
+	margin-bottom: 1rem;
+}
+.hero_detail {
+	margin-bottom: 1rem;
+}
+.hero_image {
+	width: 100%;
+}
+.myHero span {
+	display: flex;
+	gap: 1rem;
+}
+.input {
+	width: 60%;
+	padding: 0.51rem;
+	border-radius: 5px;
+	border-color: hsl(0, 0%, 75%);
+	padding: 1rem;
+}
+.btn_submit {
+	width: 30%;
+	background-color: hsl(224, 93%, 58%);
+	color: hsl(240, 75%, 98%);
+	border: none;
+	border-radius: 5px;
+	padding: 1rem;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+.btn_submit:hover {
+	transition: all 0.1s ease-in-out;
+	background-color: hsla(224, 88%, 70%, 0.949);
+}
+/* ******************************
+ SECTION 2 
+******************************* */
+.section_2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 15rem;
+	margin-bottom: 6.4rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
+.stay-productive {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+.productive-paragraph_1,
+.productive-paragraph_2 {
+	margin-bottom: 1rem;
+}
+.how-container {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+.how {
+	text-decoration: none;
+	color: hsl(170, 45%, 43%);
+	font-weight: bold;
+}
+hr {
+	width: 26%;
+	border: 1px solid;
+	color: hsl(170, 45%, 43%);
+	margin-bottom: 2rem;
+	margin-top: 1px;
+}
+.article {
+	padding: 1.5rem;
+	background-color: #fff;
+	box-shadow: 1px 2px 10px 3px hsl(240, 67%, 95%);
+	width: 50%;
+	border-radius: 10px;
+}
+.quotes {
+	margin-bottom: 1rem;
+}
+.article-text {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+.article-bio {
+	display: flex;
+	align-items: center;
+	gap: 0.51rem;
+	margin-top: 1rem;
+}
+.article-image {
+	border-radius: 50%;
+	width: 15%;
+}
+.article-name {
+	font-size: 12px;
+	font-weight: bold;
+}
+.position {
+	font-size: 9px;
+	font-weight: bold;
+}
+.section_2-image {
+	width: 100%;
+}
+/* ******************************
+ SECTION 2 
+******************************* */
+.section_3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: hsl(238, 22%, 44%);
+	padding: 5rem 2.5rem;
+	gap: 4rem;
+}
+.get-access {
+	color: #fff;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.get-access_paragraph {
+	color: hsl(240, 75%, 98%);
+	font-size: 1rem;
+}
+.cta-sign-up {
+	width: 70%;
+	padding: 15px;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	border: #000;
+	box-shadow: 1px 2px 4px hsl(0, 0%, 24%);
+}
+.cta-sign-up::placeholder {
+	font-family: 'Open Sans', sans-serif;
+	color: hsla(240, 97%, 87%, 0.998);
+}
+.cta-button {
+	cursor: pointer;
+	padding: 12px;
+	width: 30%;
+	background-color: hsl(224, 93%, 58%);
+	border: #000;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	box-shadow: 1px 2px 4px hsl(0, 0%, 24%);
+}
+.cta-button:hover {
+	transition: all 0.1s ease-in-out;
+	background-color: hsla(224, 88%, 70%, 0.949);
+}
+/* ******************************
+FOOTER SECTION
+******************************* */
+.footer-section {
+	background-color: hsl(243, 87%, 12%);
+	padding: 2.5rem;
+}
+.footer-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 1rem 0;
+}
+.footer-container span {
+	display: flex;
+	gap: 1.5rem;
+}
+.footer-icon {
+	width: 25px;
+}
+.footer-list {
+	list-style: none;
+	line-height: 2.5;
+}
+.footer-link {
+	text-decoration: none;
+	color: #fff;
+}
+.footer-link:hover {
+	color: hsl(224, 93%, 58%);
+}
+.footer-icons {
+	display: flex;
+	gap: 0.51rem;
+}
+.icon {
+	color: #fff;
+	padding: 0.51rem;
+	border: 1px solid;
+	border-radius: 50%;
+}
+.icon:hover {
+	color: hsl(224, 93%, 58%);
+}

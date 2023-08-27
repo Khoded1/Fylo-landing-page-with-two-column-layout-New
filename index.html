@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/media.css" />
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
+
+		<title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+				color: #fff;
+			}
+			.attribution a {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<div class="hero-section">
+				<nav class="nav_bar">
+					<img class="nav-logo" src="images/logo.svg" alt=".." />
+					<ul class="nav_list_con">
+						<li class="nav_list">
+							<a class="nav_link" href="#">Features </a>
+						</li>
+						<li class="nav_list">
+							<a class="nav_link" href="#">Team </a>
+						</li>
+						<li class="nav_list">
+							<a class="nav_link" href="#">Sign In </a>
+						</li>
+					</ul>
+				</nav>
+				<div class="myHero">
+					<div>
+						<h1 class="hero-title">
+							All your files in one secure <br />
+							location, accessible anywhere.
+						</h1>
+						<p class="hero_detail">
+							Fylo stores your most important files in one secure
+							location. Access <br />
+							them wherever you need, share and collaborate with friends,
+							family, and co-workers.
+						</p>
+						<form class="hero-form">
+							<input
+								class="input"
+								placeholder="Enter your email...."
+								type="email"
+								required
+							/>
+							<button class="btn_submit">Get Started</button>
+						</form>
+					</div>
+					<div class="image-container">
+						<img
+							class="hero_image"
+							src="images/illustration-1.svg"
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+			<!-- SECTION 2 -->
+			<div class="section_2">
+				<div class="productive-container">
+					<h2 class="stay-productive">
+						Stay productive, wherever you are
+					</h2>
+					<p class="productive-paragraph_1">
+						Never let location be an issue when accessing your files. Fylo
+						has you <br />
+						covered for all of your file storage needs.
+					</p>
+					<p class="productive-paragraph_2">
+						Securely share files and folders with friends, family and
+						colleagues for <br />
+						live collaboration. No email attachments required!
+					</p>
+					<span class="how-container">
+						<a class="how" href="#">See how Fylo works</a>
+						<img src="images/icon-arrow.svg" alt="" />
+					</span>
+					<hr />
+					<article class="article">
+						<span>
+							<img class="quotes" src="images/icon-quotes.svg" alt="" />
+							<p class="article-text">
+								Fylo has improved our team productivity by <br />
+								an order of magnitude. Since making the <br />
+								switch our team has become a well-oiled <br />
+								collaboration machine.
+							</p>
+						</span>
+						<div class="article-bio">
+							<img
+								class="article-image"
+								src="images/avatar-testimonial.jpg"
+								alt=""
+							/>
+							<span>
+								<p class="article-name">Kyle Burton</p>
+								<p class="position">Founder & CEO, Huddle</p>
+							</span>
+						</div>
+					</article>
+				</div>
+				<div class="section_2-image-con">
+					<img
+						class="section_2-image"
+						src="images/illustration-2.svg"
+						alt=""
+					/>
+				</div>
+			</div>
+			<div class="section_3 cta">
+				<div>
+					<h3 class="get-access">Get early access today</h3>
+					<p class="get-access_paragraph">
+						It only takes a minute to sign up and our free starter tier is
+						<br />
+						extremely generous. If you have any questions, our support
+						team <br />would be happy to help you.
+					</p>
+				</div>
+				<form class="cta-form">
+					<!-- Email -->
+					<input
+						class="cta-sign-up"
+						type="email"
+						placeholder="email@example.com"
+						required
+					/>
+					<br />
+					<button class="cta-button">Get Started For Free</button>
+				</form>
+			</div>
+		</main>
+
+		<footer class="footer-section">
+			<img src="images/logo footer.svg" alt="" />
+			<div class="footer-container">
+				<div class="footer-info">
+					<span>
+						<img class="footer-icon" src="images/icon-phone.svg" alt="" />
+						<a class="footer-link" href="#">Phone: +1-543-123-4567</a>
+					</span>
+					<br />
+					<span>
+						<img class="footer-icon" src="images/icon-email.svg" alt="" />
+						<a class="footer-link" href="#">example@fylo.com</a>
+					</span>
+				</div>
+				<ul class="footer-list">
+					<li><a class="footer-link" href="#">About Us</a></li>
+					<li><a class="footer-link" href="#">Job</a></li>
+					<li><a class="footer-link" href="#">Press</a></li>
+					<li><a class="footer-link" href="#">Blog</a></li>
+				</ul>
+				<ul class="footer-list">
+					<li><a class="footer-link" href="#">Contact Us</a></li>
+					<li><a class="footer-link" href="#">Terms</a></li>
+					<li><a class="footer-link" href="#">Privacy</a></li>
+				</ul>
+				<div class="footer-icons">
+					<a href="#"
+						><ion-icon class="icon" name="logo-facebook"></ion-icon
+					></a>
+					<a href="#"
+						><ion-icon class="icon" name="logo-linkedin"></ion-icon
+					></a>
+					<a href="#"
+						><ion-icon class="icon" name="logo-instagram"></ion-icon
+					></a>
+				</div>
+			</div>
+			<p class="attribution">
+				Challenge by
+				<a
+					href="https://www.frontendmentor.io?ref=challenge"
+					target="_blank"
+					>Frontend Mentor</a
+				>. Coded by
+				<a
+					href="https://www.frontendmentor.io/profile/Khoded1"
+					target="_blank"
+					>Khoded</a
+				>.
+			</p>
+		</footer>
+	</body>
+</html>
